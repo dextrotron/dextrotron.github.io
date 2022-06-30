@@ -1,2 +1,2 @@
-# dextrotron.github.io
-Объявление
+# dextrotron
+Bio
