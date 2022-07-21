@@ -10,8 +10,8 @@
                 color: white;
             }
             .code {
-                height: 140px;
-                width: 600px;
+                height: 180px;
+                width: 700px;
                 background-color: rgb(30, 30, 30);
                 border-radius: 8px;
                 margin: auto;
@@ -19,7 +19,9 @@
                 box-shadow: 10px 25px 25px 0 rgba(0, 0, 0, 0.2);
                 padding-left: 20px;
                 padding-top: 20px;
-                font-size: 15px;
+            }
+            .font {
+                font-size: 20px;
                 font-family: Consolas, 'Courier New', monospace;
             }
             .circle-red {
@@ -73,11 +75,11 @@
         </style>
     </head>
     <body>
-        <div class="code">
+        <div class="code font">
             <div class="circle-red"></div><div class="circle-green"></div><div class="circle-blue"></div>
             <br><br>
             <span class="f-blue">function</span> <span class="n-yellow">randint</span><span class="s-yellow">(<span class="c-blue">min</span><span class="white">,</span> <span class="c-blue">max</span>)</span> <span class="s-yellow">{</span><br>
-            <pre>    <span class="purple">return</span> <span class="purple">(<span class="c-blue">Math</span><span class="white">.</span><span class="n-yellow">floor</span><span class="f-blue">(<span class="c-blue">Math</span><span class="white">.</span><span class="n-yellow">random</span><span class="s-yellow">()</span> <span class="white">*</span> <span class="s-yellow">(<span class="c-blue">max</span> <span class="white">-</span> <span class="c-blue">min</span> <span class="white">+</span> <span class="number">1</span>)</span>)</span>)</span> <span class="white">+</span> <span class="c-blue">min</span></pre>
+            <pre class="font">    <span class="purple">return</span> <span class="purple">(<span class="c-blue">Math</span><span class="white">.</span><span class="n-yellow">floor</span><span class="f-blue">(<span class="c-blue">Math</span><span class="white">.</span><span class="n-yellow">random</span><span class="s-yellow">()</span> <span class="white">*</span> <span class="s-yellow">(<span class="c-blue">max</span> <span class="white">-</span> <span class="c-blue">min</span> <span class="white">+</span> <span class="number">1</span>)</span>)</span>)</span> <span class="white">+</span> <span class="c-blue">min</span></pre>
             <span class="s-yellow">}</span>
         </div>
     </body>
