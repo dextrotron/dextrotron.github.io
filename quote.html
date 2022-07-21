@@ -7,15 +7,17 @@
                 background-color: rgb(42, 42, 202);
             }
             .code {
-                height: 120px;
+                height: 130px;
                 width: 500px;
                 background-color: rgb(30, 30, 30);
                 border-radius: 8px;
                 margin: auto;
-                margin-top: 20%;
+                margin-top: 21%;
                 box-shadow: 10px 25px 25px 0 rgba(0, 0, 0, 0.2);
                 padding-left: 20px;
                 padding-top: 20px;
+                font-size: 14px;
+                font-family: Consolas, 'Courier New', monospace;
             }
             .circle-red {
                 float: left;
@@ -25,7 +27,6 @@
                 border-radius: 5.6em;
                 background-color: red;
                 margin-right: 10px;
-                margin-bottom: 20px;
             }
             .circle-green {
                 float: left;
@@ -35,7 +36,6 @@
                 border-radius: 5.6em;
                 background-color: green;
                 margin-right: 10px;
-                margin-bottom: 20px;
             }
             .circle-blue {
                 float: left;
@@ -45,14 +45,37 @@
                 border-radius: 5.6em;
                 background-color: blue;
                 margin-right: 10px;
-                margin-bottom: 20px;
+            }
+            .f-blue {
+                color: rgb(37, 104, 202);
+            }
+            .n-yellow {
+                color: rgb(208, 166, 65);
+            }
+            .s-yellow {
+                color: rgb(240, 215, 9);
+            }
+            .c-blue {
+                color: rgb(140, 220, 219);
+            }
+            .white {
+                color: wheat;
+            }
+            .purple {
+                color: rgb(186, 134, 192);
+            }
+            .number {
+                color: rgb(181, 206, 168)
             }
         </style>
     </head>
     <body>
         <div class="code">
-            <div class="circle-red"></div><div class="circle-green"></div><div class="circle-blue"></div><br>
-            <img src="quote.png" alt="">
+            <div class="circle-red"></div><div class="circle-green"></div><div class="circle-blue"></div>
+            <br><br>
+            <span class="f-blue">function</span> <span class="n-yellow">randint</span><span class="s-yellow">(<span class="c-blue">min</span><span class="white">,</span> <span class="c-blue">max</span>)</span> <span class="s-yellow">{</span><br>
+            <pre>    <span class="purple">return</span> <span class="purple">(<span class="c-blue">Math</span><span class="white">.</span><span class="n-yellow">floor</span><span class="f-blue">(<span class="c-blue">Math</span><span class="white">.</span><span class="n-yellow">random</span><span class="s-yellow">()</span> <span class="white">*</span> <span class="s-yellow">(<span class="c-blue">max</span> <span class="white">-</span> <span class="c-blue">min</span> <span class="white">+</span> <span class="number">1</span>)</span>)</span>)</span> <span class="white">+</span> <span class="c-blue">min</span></pre>
+            <span class="s-yellow">}</span>
         </div>
     </body>
 </html>
